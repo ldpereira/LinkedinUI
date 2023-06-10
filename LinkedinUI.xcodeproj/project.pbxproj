@@ -16,6 +16,11 @@
 		766101DA2A3489B8000C04BF /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101D92A3489B8000C04BF /* NetworkModel.swift */; };
 		766101DC2A348ABE000C04BF /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101DB2A348ABE000C04BF /* InvitationView.swift */; };
 		766101DE2A34912F000C04BF /* MyNetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101DD2A34912F000C04BF /* MyNetworkScreen.swift */; };
+		766101E02A3493DD000C04BF /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101DF2A3493DC000C04BF /* PostCardView.swift */; };
+		766101E22A34970F000C04BF /* ProfileAndPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101E12A34970F000C04BF /* ProfileAndPostView.swift */; };
+		766101E42A349813000C04BF /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101E32A349813000C04BF /* PostView.swift */; };
+		766101E62A349B86000C04BF /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101E52A349B86000C04BF /* HomeScreen.swift */; };
+		766101E82A349C3A000C04BF /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101E72A349C3A000C04BF /* TabScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		766101D92A3489B8000C04BF /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		766101DB2A348ABE000C04BF /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
 		766101DD2A34912F000C04BF /* MyNetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreen.swift; sourceTree = "<group>"; };
+		766101DF2A3493DC000C04BF /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		766101E12A34970F000C04BF /* ProfileAndPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndPostView.swift; sourceTree = "<group>"; };
+		766101E32A349813000C04BF /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		766101E52A349B86000C04BF /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		766101E72A349C3A000C04BF /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,11 @@
 				766101D42A348717000C04BF /* SearchBarView.swift */,
 				766101DB2A348ABE000C04BF /* InvitationView.swift */,
 				766101DD2A34912F000C04BF /* MyNetworkScreen.swift */,
+				766101DF2A3493DC000C04BF /* PostCardView.swift */,
+				766101E12A34970F000C04BF /* ProfileAndPostView.swift */,
+				766101E32A349813000C04BF /* PostView.swift */,
+				766101E52A349B86000C04BF /* HomeScreen.swift */,
+				766101E72A349C3A000C04BF /* TabScreen.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -168,12 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766101E02A3493DD000C04BF /* PostCardView.swift in Sources */,
+				766101E22A34970F000C04BF /* ProfileAndPostView.swift in Sources */,
 				766101C82A348678000C04BF /* ContentView.swift in Sources */,
 				766101D82A3489A9000C04BF /* PostModel.swift in Sources */,
+				766101E62A349B86000C04BF /* HomeScreen.swift in Sources */,
+				766101E82A349C3A000C04BF /* TabScreen.swift in Sources */,
 				766101D52A348717000C04BF /* SearchBarView.swift in Sources */,
 				766101DA2A3489B8000C04BF /* NetworkModel.swift in Sources */,
 				766101C62A348678000C04BF /* LinkedinUIApp.swift in Sources */,
 				766101DC2A348ABE000C04BF /* InvitationView.swift in Sources */,
+				766101E42A349813000C04BF /* PostView.swift in Sources */,
 				766101DE2A34912F000C04BF /* MyNetworkScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

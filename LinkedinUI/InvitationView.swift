@@ -30,7 +30,7 @@ struct InvitationView: View {
                     .font(.caption)
                     .foregroundColor(.gray)
             }.frame(width: 150, height: 20, alignment: .leading)
-            
+            Spacer()
             HStack {
                 Image(systemName: "multiply.circle")
                     .font(.system(size: 30))
@@ -39,7 +39,7 @@ struct InvitationView: View {
                     .font(.system(size: 30))
                     .foregroundColor(.blue)
                     .opacity(0.8)
-            }.padding(.horizontal)
+            }
         }
         .frame(width: .infinity, height: .infinity)
         .padding(.horizontal)
