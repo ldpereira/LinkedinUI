@@ -11,6 +11,11 @@
 		766101C82A348678000C04BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101C72A348678000C04BF /* ContentView.swift */; };
 		766101CA2A34867E000C04BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766101C92A34867E000C04BF /* Assets.xcassets */; };
 		766101CD2A34867E000C04BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766101CC2A34867E000C04BF /* Preview Assets.xcassets */; };
+		766101D52A348717000C04BF /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101D42A348717000C04BF /* SearchBarView.swift */; };
+		766101D82A3489A9000C04BF /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101D72A3489A9000C04BF /* PostModel.swift */; };
+		766101DA2A3489B8000C04BF /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101D92A3489B8000C04BF /* NetworkModel.swift */; };
+		766101DC2A348ABE000C04BF /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101DB2A348ABE000C04BF /* InvitationView.swift */; };
+		766101DE2A34912F000C04BF /* MyNetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766101DD2A34912F000C04BF /* MyNetworkScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		766101C72A348678000C04BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		766101C92A34867E000C04BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		766101CC2A34867E000C04BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		766101D42A348717000C04BF /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		766101D72A3489A9000C04BF /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		766101D92A3489B8000C04BF /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		766101DB2A348ABE000C04BF /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		766101DD2A34912F000C04BF /* MyNetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		766101C42A348678000C04BF /* LinkedinUI */ = {
 			isa = PBXGroup;
 			children = (
+				766101D62A348996000C04BF /* Models */,
+				766101D32A348701000C04BF /* Views */,
 				766101C52A348678000C04BF /* LinkedinUIApp.swift */,
 				766101C72A348678000C04BF /* ContentView.swift */,
 				766101C92A34867E000C04BF /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				766101CC2A34867E000C04BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		766101D32A348701000C04BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				766101D42A348717000C04BF /* SearchBarView.swift */,
+				766101DB2A348ABE000C04BF /* InvitationView.swift */,
+				766101DD2A34912F000C04BF /* MyNetworkScreen.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		766101D62A348996000C04BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				766101D72A3489A9000C04BF /* PostModel.swift */,
+				766101D92A3489B8000C04BF /* NetworkModel.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				766101C82A348678000C04BF /* ContentView.swift in Sources */,
+				766101D82A3489A9000C04BF /* PostModel.swift in Sources */,
+				766101D52A348717000C04BF /* SearchBarView.swift in Sources */,
+				766101DA2A3489B8000C04BF /* NetworkModel.swift in Sources */,
 				766101C62A348678000C04BF /* LinkedinUIApp.swift in Sources */,
+				766101DC2A348ABE000C04BF /* InvitationView.swift in Sources */,
+				766101DE2A34912F000C04BF /* MyNetworkScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
